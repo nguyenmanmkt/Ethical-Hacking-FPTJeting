@@ -1,0 +1,19 @@
+### On Ubuntu 
+sudo apt install nmap -y
+
+# or install new version 
+wget https://nmap.org/dist/nmap-7.94-1.x86_64.rpm
+# install via alien
+sudo apt install alien
+sudo alien -i nmap-7.94-1.x86_64.rpm
+# -->
+
+# Redhat 
+sudo yum install nmap -y
+
+# Check version
+sudo nmap --version
+
+
+
+
